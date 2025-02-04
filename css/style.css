@@ -76,12 +76,23 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+.header-nav:first-child {
+    position: relative;
+    color: #404bbf;
+}
+
 .header-nav a:hover {
     color: #404BBF;
 }
 
-.header-nav a:active {
+.header-nav a:active::after {
     color: #404BBF;
+    position: absolute;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav a:focus {
