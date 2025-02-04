@@ -84,7 +84,7 @@ h3 {
     position: relative;
 }
 
-.current-nav-item:hover::after {
+.current-nav-item::after {
     position: absolute;
     bottom: -1px;
     height: 4px;
@@ -92,7 +92,6 @@ h3 {
     background-color: #404bbf;
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 } 
 
 .header-nav a:hover {
