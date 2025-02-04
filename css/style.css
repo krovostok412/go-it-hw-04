@@ -348,3 +348,15 @@ footer {
     padding: 24px 0;
     display: inline-block;
 }
+
+.icon-sec2 {
+    background-color: #F4F4FD;
+    width: 100%;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
