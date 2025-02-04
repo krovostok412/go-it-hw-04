@@ -80,11 +80,11 @@ h3 {
     color: #404bbf;
 }
 
-.current-nav-item {
+.nav-li .current-nav-item {
     position: relative;
 }
 
-.current-nav-item::after {
+.nav-li .current-nav-item::after {
     position: absolute;
     bottom: -1px;
     height: 4px;
