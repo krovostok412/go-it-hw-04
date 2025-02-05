@@ -420,8 +420,6 @@ ul .icons-med {
 
 .icon-svg {
     fill: #f4f4fd;
-    width: 24px;
-    height: 24px;
 }
 
 .hidden-content {
@@ -481,11 +479,7 @@ ul .icons-med {
     height: 100%;
 }
 
-.foot-media a:hover {
-    background-color: #31d0aa;
-}
-
-.foot-media a:focus {
+.foot-media a:hover, .foot-media a:focus {
     background-color: #31d0aa;
 }
 
@@ -495,4 +489,9 @@ ul .icons-med {
 
 .footer-div {
     margin-right: 120px;
+}
+
+.icon-href .icon-svg {
+    width: 24px;
+    height: 24px;
 }
