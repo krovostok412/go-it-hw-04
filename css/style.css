@@ -453,6 +453,9 @@ ul .icons-med {
 .footer-content {
     display: flex;
     align-items: baseline;
+    max-width: 1158px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .foot-media p {
@@ -476,11 +479,11 @@ ul .icons-med {
     height: 100%;
 }
 
-.icon-med a:hover {
+.foot-media a:hover {
     background-color: #31d0aa;
 }
 
-.icon-med a:focus {
+.foot-media a:focus {
     background-color: #31d0aa;
 }
 
@@ -489,10 +492,10 @@ ul .icons-med {
     height: 24px;
 }
 
-.footer-div {
-    margin-right: 120px;
-}
-
 .soc-media {
     min-width: 96px;
+}
+
+.footer-div {
+    margin-right: 120px;
 }
