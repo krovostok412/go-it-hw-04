@@ -477,11 +477,19 @@ ul .icons-med {
     height: 100%;
 }
 
-.icon-href:hover {
+.icon-med a:hover {
     background-color: #31d0aa;
 }
 
-.footer .icon-svg{
+.icon-med a:focus {
+    background-color: #31d0aa;
+}
+
+.footer svg{
     width: 24px;
     height: 24px;
+}
+
+.footer-content {
+    margin-right: 120px;
 }
