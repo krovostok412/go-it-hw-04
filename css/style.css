@@ -290,7 +290,7 @@ main .section-order {
     background-size: cover;
 }
 
-.section-team, .section-order {
+.section-order {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -338,7 +338,6 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 100px 0;
-    align-items: center;
 }
 
 .footer-p {
@@ -465,7 +464,7 @@ ul .icons-med {
     margin-bottom: 16px;
 }
 
-.icons-med {
+.footer .icons-med {
     display: flex;
     gap: 16px;
     width: 40px;
@@ -485,11 +484,15 @@ ul .icons-med {
     background-color: #31d0aa;
 }
 
-.footer svg{
+.foot-media .footer .icon-svg{
     width: 24px;
     height: 24px;
 }
 
-.footer-content {
+.footer-div {
     margin-right: 120px;
+}
+
+.soc-media {
+    min-width: 96px;
 }
