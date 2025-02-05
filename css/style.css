@@ -37,6 +37,7 @@ footer .logo a {
 .header-nav .adrress-a {
     font-size: 16px;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h2 {
@@ -283,10 +284,13 @@ main .section-order {
     color: #FFFFFF;
     padding: 188px 0 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/sec1-bg.jpg);
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.section-team, .section-order {
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -369,6 +373,9 @@ footer {
 
 .teamli {
     flex-basis: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .nav-li a {
@@ -404,4 +411,13 @@ ul .icons-med {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-med a:hover, .icon-med a:focus {
+    background-color: #404bbf;
+}
+
+.icon-svg {
+    fill: #f4f4fd;
 }
