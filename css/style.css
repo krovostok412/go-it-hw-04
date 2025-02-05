@@ -420,6 +420,8 @@ ul .icons-med {
 
 .icon-svg {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .hidden-content {
@@ -485,11 +487,6 @@ ul .icons-med {
 
 .foot-media a:focus {
     background-color: #31d0aa;
-}
-
-.foot-media  svg{
-    width: 24px;
-    height: 24px;
 }
 
 .soc-media {
